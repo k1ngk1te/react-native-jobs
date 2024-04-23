@@ -8,8 +8,7 @@ import { ScreenHeaderBtn, NearbyJobCard } from '../../components';
 import { COLORS, icons, SIZES } from '../../constants';
 import styles from '../../styles/search';
 
-const RAPID_API_KEY = '14ecdde4e9msh0865aedafea2f86p135a11jsn0d3f4d2f6523';
-// const RAPID_API_KEY = '744818e344msheeb837c65ce679dp145544jsn0087e518ea4c';
+const RAPID_API_KEY = 'env-api-key';
 
 const JobSearch = () => {
   const params = useLocalSearchParams();

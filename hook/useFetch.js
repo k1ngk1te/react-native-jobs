@@ -2,8 +2,7 @@
 import axios from 'axios';
 import React from 'react';
 
-const RAPID_API_KEY = '14ecdde4e9msh0865aedafea2f86p135a11jsn0d3f4d2f6523';
-// const RAPID_API_KEY = '744818e344msheeb837c65ce679dp145544jsn0087e518ea4c';
+const RAPID_API_KEY = 'env-api-key';
 
 function useFetch(endpoint, query) {
   const [data, setData] = React.useState([]);
